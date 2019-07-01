@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-// import Login from './components/login'
-import Register from './components/register';
+import CustomRouter from './components/router'
 
 
 function App() {
   return (
     <div>
-      {/* <Login></Login> */}
-      <Register></Register>
+      
+      <CustomRouter></CustomRouter>
+      
     </div>
   );
 }
