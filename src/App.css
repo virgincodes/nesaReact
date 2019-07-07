@@ -41,17 +41,69 @@
   padding: 0px;
 }
 
+.nav a{
+  color: black !important
+}
+
+.nav li{
+  margin-right: 80px;
+  font-size: 28px
+}
+
+.nav h1{
+  float:left
+}
+
+.nav ul{
+  float: right;
+}
+
+.nav{
+  display: block;
+}
+.nav ul{
+  display:flex;
+  list-style: none;
+
+}
+
+.blogpost{
+  display: inline-grid;
+  margin: 100px 0
+}
+
+.blogpost h4{
+  font-size: 18px;
+  color: gray;
+  font-weight: 100;
+}
+
+.blogpost p span{
+  font-weight: 800;
+  margin: 0 20px;
+}
+
+.layout{
+  padding-top: 40px
+}
+
 html, body {
-  background-color: #29167a;
   height: 100%;
   display: flex;
+
+  width: 100%;
   justify-content: center;
+}
+
+#root{
+  width:70% !important;
+
 }
 
 .formContainer{
   position: relative;
   background-color: azure;
-  width: 50vh;
+  /* width: 50vh; */
   padding: 20px;
   margin-top: 150px;
   /* text-align: center; */

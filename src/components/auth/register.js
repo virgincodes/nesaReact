@@ -1,9 +1,12 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Layout from '../layout';
+
 
 function Register(){
     return (
+        <Layout>
         <div className="formContainer">
             <h4><strong>CREATE AN ACCOUNT</strong></h4>
             <br/>
@@ -36,6 +39,7 @@ function Register(){
                 {/* <span>Forgot your password?</span> */}
             </Form>    
         </div>
+        </Layout>
     )
 }
 export default Register;

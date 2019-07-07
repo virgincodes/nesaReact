@@ -2,6 +2,7 @@ import React from 'react';
 import Alert from 'react-bootstrap/Alert'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Layout from '../layout';
 const axios = require('axios');
 
 
@@ -59,7 +60,9 @@ class Login extends React.Component {
 
     render() {
         return (
-            <div className="formContainer">
+
+            <Layout>
+                     <div className="formContainer">
                 <h4><strong>SIGN IN TO YOUR ACCOUNT</strong></h4>
                 <br />
                 <Form onSubmit={this.handleSubmit
@@ -99,6 +102,8 @@ class Login extends React.Component {
                      </Alert>
                 ) }
             </div>
+            </Layout>
+           
         )
     }
 
